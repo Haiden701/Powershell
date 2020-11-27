@@ -1,0 +1,25 @@
+Select disk 1
+Online disk
+Attributes disk clear readonly
+Convert gpt
+Convert dynamic
+Create volume simple
+Format quick fs=ntfs label=BDD
+Assign letter=B
+Select disk 2
+Online disk
+Attributes disk clear readonly
+Convert gpt
+Convert dynamic
+Create volume simple
+Format quick fs=ntfs label=LOGS
+Assign letter=L
+Select disk 3
+Online disk
+Attributes disk clear readonly
+Convert gpt
+Convert dynamic
+Create volume simple
+Format quick fs=ntfs label=SYSVOL
+Assign letter=S
+list disk
